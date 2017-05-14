@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/static/css/bulma.css">
+    <style>
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="has-text-centered">
+        bulma 是高度模块化得，可定制化也很强，是 mobile-first 的 css framework
+    </div>
+    <div class="container">
+    <div class="nav">
+        <a href="/">Home</a>
+    </div>
+    {% block main %}
+        
+    {% endblock %}
+    </div>
+</body>
+</html>

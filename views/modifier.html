@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div class="has-text-centered">
+    bulma 可以修改 Element 的 style，主要通过两类别的 class is-、has-
+</div>
+<div>
+    <p>
+        颜色修改器，修改 Element 的颜色
+    </p>
+    <div class="button is-primary">
+      is-primary
+    </div>
+    <div class="button is-info">
+      is-info
+    </div>
+    <div class="button is-success">
+      is-success
+    </div>
+    <div class="button is-warning">
+      is-warning
+    </div>
+    <div class="button is-danger">
+      is-danger
+    </div>
+</div>
+<div>
+    <p>
+        大小修改器
+    </p>
+    <a class="button">
+      Button
+    </a>
+    <a class="button is-small">
+        is-small
+    </a>
+    <a class="button is-medium">
+        is-medium
+    </a>
+    <a class="button is-large">
+        is-large
+    </a>
+    <div class="button is-fullwidth" >
+        is-fullwidth 
+    </div>
+</div>
+<div>
+    <p>浮动</p>
+    <div class="is-clearfix" >
+        <span class="is-pulled-left" >is-pulled-left</span>
+        <span class="is-pulled-right" >is-pulled-right</span>
+    </div>
+</div>
+<div>
+    <p>文本对齐</p>
+    <div class="has-text-centered" >
+        has-text-centered   
+    </div>
+    <div class="has-text-left" >
+        has-text-left
+    </div>
+    <div class="has-text-right" >
+        has-text-right
+    </div>
+</div>
+<div>
+    <p>外边距和内边距</p>
+    <div class="is-marginless" style="border:1px solid #ccc" >
+        is-marginless
+    </div>
+    <div class="is-paddingless" style="border:1px solid #ccc" >
+        is-paddingless
+    </div>
+    <div style="border:1px solid #ccc" >
+        normal
+    </div>
+</div>
+<div>
+    <p>禁止文本选择</p>
+    <p class="is-unselectable" >
+        is-unselectable
+    </p>
+</div>
+{% endblock %}
